@@ -77,4 +77,4 @@ Kamus tanda baca:
 
 || : atau
 && : dan
-/*
+*/
