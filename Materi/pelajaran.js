@@ -64,7 +64,7 @@ if(nilai >= 80 && nilai <= 100) {
 
 //PR 
 
-console.log("Hari Kedua" + "<br>" + "<br>);
+console.log("Hari Ketiga" + "<br>" + "<br>);
 
 console.log("jawaban pr(credit to mas Mirza yang njawabnya super simpel)" + "<br>");            
 let anak = 89;
