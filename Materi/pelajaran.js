@@ -65,15 +65,13 @@ if(nilai >= 80 && nilai <= 100) {
 //PR 
 
 
-console.log("jawaban pr(credit to mas Mirza yang njawabnya super simpel)" + "<br>");            
+console.log("jawaban pr(credit to mas Mirza yang njawabnya super simpel)" + "<br>" + "<br>");            
 let anak = 89;
 let kapasitas = 8;
 
-let jumlah = anak % kapasitas;
-
-if(jumlah == 0) {
+if(anak % kapasitas == 0) {
     document.write(jumlah + " bus" + "<br>");
-} else if(jumlah > 0) {
+} else if(anak % kapasitas > 0) {
     document.write(Math.ceil(anak / kapasitas) + " bus" + "<br>");
 } else if(anak == 0) {
     document.write("tidak memerlukan bus karena tidak ada penumpang");
@@ -98,4 +96,8 @@ Kamus tanda baca:
 
 || : atau
 && : dan
+
+kamus fungsi:
+Math.ceil() : untuk membulatkan bilangan float (angka yang ada punya angka di belakang koma misal: 3.3) ke atas misal 3.3 = 4, 3.8 = 4
+parseInt() : mirip dengan Math.ceil namun membulatkan kebawah misal 4.1 = 4, 5.9 = 5
 */
