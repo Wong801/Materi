@@ -3,6 +3,7 @@
 
 //materi perhitungan
 
+console.log("Hari Pertama" + "<br>" + "<br>);
 let p= 40;
 let l= 23;
 
@@ -17,6 +18,7 @@ document.write("<br>")
 
 //materi penentuan bilangan menggunakan mod dengan if else
 
+console.log("Hari Kedua" + "<br>" + "<br>);
 let b= 897659;
 
 if(b % 2 == 0) {
@@ -58,6 +60,26 @@ if(nilai >= 80 && nilai <= 100) {
     document.write("nilai anda E");
 } else {
     document.write("nilai salah");
+}
+
+//PR 
+
+console.log("Hari Kedua" + "<br>" + "<br>);
+
+console.log("jawaban pr(credit to mas Mirza yang njawabnya super simpel)" + "<br>");            
+let anak = 89;
+let kapasitas = 8;
+
+let jumlah = anak % kapasitas;
+
+if(jumlah == 0) {
+    document.write(jumlah + " bus" + "<br>");
+} else if(jumlah > 0) {
+    document.write(Math.ceil(anak / kapasitas) + " bus" + "<br>");
+} else if(anak == 0) {
+    document.write("tidak memerlukan bus karena tidak ada penumpang");
+} else {
+    document.write("penumpang tidak bisa minus");
 }
 
 /*
