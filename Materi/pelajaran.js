@@ -74,10 +74,12 @@ if(anak % kapasitas == 0) {
 } else if(anak % kapasitas > 0) {
     document.write(Math.ceil(anak / kapasitas) + " bus" + "<br>");
 } else if(anak == 0) {
-    document.write("tidak memerlukan bus karena tidak ada penumpang");
+    document.write("tidak memerlukan bus karena tidak ada penumpang" + "<br>");
 } else {
-    document.write("penumpang tidak bisa minus");
+    document.write("penumpang tidak bisa minus" + "<br>");
 }
+
+document.write("<br>");
 
 /*
 Kamus tanda baca:
