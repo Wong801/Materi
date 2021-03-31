@@ -3,7 +3,7 @@
 
 //materi perhitungan
 
-console.log("Hari Pertama" + "<br>" + "<br>);
+console.log("Hari Pertama" + "<br>" + "<br>");
 let p= 40;
 let l= 23;
 
@@ -18,7 +18,7 @@ document.write("<br>")
 
 //materi penentuan bilangan menggunakan mod dengan if else
 
-console.log("Hari Kedua" + "<br>" + "<br>);
+console.log("Hari Kedua" + "<br>" + "<br>");
 let b= 897659;
 
 if(b % 2 == 0) {
